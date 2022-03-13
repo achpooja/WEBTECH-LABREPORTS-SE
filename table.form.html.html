@@ -1,0 +1,147 @@
+
+<html>
+  <head>
+    <title>Form and table</title>
+  </head>
+  <body>
+    <form method="post" action="poo.abc">
+      <table border="1" cellspacing="0" bgcolor="black">
+        <tr>
+          <td bgcolor="olive" colspan="2">Sign Up</td>
+        </tr>
+       
+        <tr>
+          <td><font color="yellow" > First Name</td>
+          <td >
+            <input
+              type="text"
+              name="name"
+              required="required"
+              placeholder="   Enter Your First Name..."
+              /> 
+          </td>
+        </tr>
+        <tr>
+            <td><font color="yellow" >Last Name</td>
+            <td>
+              <input
+                type="text"
+                name="name"
+                required="required"
+                placeholder="   Enter Your Last Name..."
+                /> 
+            </td>
+          </tr>
+          <tr>
+            <td> <font color="yellow" > Screen Name</td>
+            <td>
+              <input
+                type="text"
+                name="name"
+                required="required"
+                placeholder="   Enter Your Screen Name..."
+                /> 
+            </td>
+          </tr>
+          <tr>
+            <td><font color="yellow" >Date of Birth</td>
+            <td>
+                <select name="month" >
+                    <option>MAY</option>
+                    <option>JUN</option>
+                    <option>JUL</option>
+                    <option>AUG</option>
+             
+                </select> 
+
+                <select name="date" >
+                    <option>5</option>
+                    <option>6</option>
+                    <option>7</option>
+                    <option>8</option>
+             
+                </select>
+
+                <select name="year" >
+                    <option>1985</option>
+                    <option>1986</option>
+                    <option>1987</option>
+                    <option>1988</option>
+             
+                </select>
+            
+            </td>
+          </tr>
+          
+
+          <tr>
+            <td><font color="yellow" >Gender</td>
+            <td>
+              <label><input type="radio" name="gender" value="M" /><font color="yellow" >Male</label>
+              <label><input type="radio" name="gender" value="F" />Female<font color="yellow" ></label>
+            </td>
+          </tr>
+        <tr>
+            <td><font color="yellow" >Country</td>
+            <td>
+                <select name="country" >
+                    <option>USA</option>
+                    <option>UK</option>
+                    <option>France</option>
+                    <option>Italy</option>
+             
+                </select>
+            </td>
+        </tr>    
+           <tr>
+          <td><font color="yellow" >Email</td>
+          <td><input type="email"
+             name="email" 
+             required="required"
+             placeholder="Enter E-mail"
+             />
+            </td>
+       
+        <tr>
+            <td><font color="yellow" >Phone</td>
+            <td><input type="phone"
+                 name="phone" 
+                 placeholder="Enter Phone..." 
+                 />
+            </td>
+        </tr>
+        <tr>
+            <td><font color="yellow" >Password</td>
+            <td>
+              <input
+                type="password"
+                name="password"
+                required="required"
+              />
+            </td>
+          </tr>
+          <tr>
+            <td><font color="yellow" >Confirm Password</td>
+            <td>
+              <input
+                type="password"
+                name="password"
+                required="required"
+              />
+            </td>
+          </tr>
+         <tr>
+             <td colspan="2" align="center"><font color="yellow" ><label><input type="checkbox" required="" /> I agree to the Terms of Use </label></td>
+         </tr>   
+       
+        <tr>
+          <td bgcolor="olive" colspan="2" align="right" >
+            <input type="submit" value="submit" />  
+              <input type="reset" value="cancel" />
+            </td>
+        </tr>
+        
+      </table>
+    </form>
+  </body>
+</html>
