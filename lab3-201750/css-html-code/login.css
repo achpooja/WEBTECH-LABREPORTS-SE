@@ -1,0 +1,42 @@
+body
+{
+    background-color: crimson;
+}
+.log
+{
+  border: 1px solid green;
+  width: 300px;
+  height: auto;
+  margin: auto;
+  padding: 50px;
+  background-color: white;
+}
+.heading span
+{
+    text-decoration: underline 3px solid brown;
+}
+.form
+{
+    width:100%
+}
+.form input,button
+
+ {
+    margin: 20px 0;
+    border: none;
+    border-bottom: 3px solid rgb(100,50,25);
+   font-size:large;
+    width:100%;
+ } 
+ .button
+ {
+     padding: 20px;
+     background-image: linear-gradient(to left,red,rgb(134, 8, 8) );
+     color: white;
+ }
+ .option
+ {
+     text-align: center;
+ }
+
+ 
