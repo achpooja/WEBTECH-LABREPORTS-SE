@@ -1,86 +1,118 @@
-                body {
-                    background-color: antiquewhite;
-                }
-                
-                .container {
-                    background-color: burlywood;
-                    height: 80%;
-                    width: 80%;
-                    margin: auto;
-                }
-                
-                header {
-                    text-align: right;
-                }
-                
-                header.head {
-                    height: 100%;
-                    width: 100%;
-                }
-                
-                button {
-                    font-size: medium;
-                    font-weight: bold;
-                    padding: 3px 6px;
-                    margin-top: 30px;
-                    margin-right: 30px;
-                    border-radius: 5px;
-                    background-color: cornflowerblue;
-                }
-                
-                .intro {
-                    margin-left: 200px;
-                    margin-top: 10%;
-                }
-                
-                .abc {
-                    text-decoration: none;
-                }
-                
-                .helo {
-                    font-size: large;
-                    font-style: oblique;
-                }
-                
-                .myint {
-                    font-size: 30px;
-                    font-weight: bolder;
-                }
-                
-                .std {
-                    font-style: italic;
-                    font-size: large;
-                    font-weight: lighter;
-                    color: rgb(0, 139, 134);
-                }
-                
-                .hire {
-                    border-radius: 10px;
-                }
-                
-                .image {
-                    float: right;
-                    height: 15%;
-                    width: 30%;
-                    margin-right: 200px;
-                    display: flex;
-                    justify-content: center;
-                    align-items: center;
-                }
-                
-                .socialm {
-                    position: fixed;
-                    left: 100px;
-                    margin-left: 100px;
-                    margin-top: 250px;
-                }
-                
-                .socialm .socialmedia {
-                    float: left;
-                    margin-left: 40px;
-                    margin-right: 30px;
-                }
-                
-                .socialmedia:hover {
-                    background-color: aqua;
-                }
+ body {
+     margin: 0;
+     padding: 0;
+     background-color: aquamarine;
+ }
+ 
+ .nav {
+     position: relative;
+     top: 10px;
+     display: flex;
+     justify-content: right;
+ }
+ 
+ .nav ul {
+     list-style-type: none;
+     max-width: 100%;
+ }
+ 
+ .nav ul li {
+     float: left;
+     margin-left: 100px;
+     margin-right: 100px;
+     font-size: 20px;
+     font-weight: bold;
+ }
+ 
+ a {
+     text-decoration: none;
+ }
+ 
+ .nav ul li a:hover {
+     color: cyan;
+     border: 2px solid crimson;
+     background-color: coral;
+ }
+ 
+ .clear {
+     clear: both;
+ }
+ 
+ .botton {
+     color: darkblue;
+     font-size: 20px;
+     padding: 10px 20px;
+     display: inline-block;
+     font-weight: 500;
+     background: rgb(220, 110, 20);
+     border: 4px solid crimson;
+ }
+ 
+ .botton:hover {
+     background: transparent;
+     border-color: red;
+     color: gray;
+ }
+ 
+ .intro {
+     position: absolute;
+     top: 35%;
+     left: 25%;
+ }
+ 
+ .intro .head {
+     color: black;
+     font-size: 20px;
+     letter-spacing: 4px;
+     display: inline-block;
+     margin-bottom: 20px;
+     background: linear-gradient(120deg, #7644ff 50%, crimson 30%);
+     -webkit-background-clip: text;
+     -webkit-text-fill-color: transparent;
+ }
+ 
+ .intro h1 {
+     color: black;
+     font: size 70px;
+     font-weight: 1000;
+     line-height: 60px;
+     width: 60%;
+ }
+ 
+ .intro h1 span {
+     color: crimson;
+ }
+ 
+ .image {
+     float: right;
+     width: 50%;
+     height: 550px;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     position: relative;
+ }
+ 
+ .cleara {
+     clear: both;
+ }
+ 
+ .socialink {
+     position: fixed;
+     bottom: 100px;
+     left: 50px;
+ }
+ 
+ .socialink ul li {
+     float: left;
+     margin-left: 100px;
+     margin-right: 10px;
+     padding-right: 100px;
+     font-size: 30px;
+ }
+ 
+ .socialink a:hover {
+     border: 2px solid black;
+     background-color: darkolivegreen;
+     color: black;
+ }
