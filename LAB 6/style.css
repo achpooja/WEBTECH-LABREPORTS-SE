@@ -1,121 +1,102 @@
- body {
-     margin: 0;
-     padding: 0;
-     background-color: aquamarine;
- }
- 
- .nav {
-     position: relative;
-     top: 10px;
-     display: flex;
-     justify-content: right;
- }
- 
- .nav ul {
-     list-style-type: none;
-     max-width: 100%;
- }
- 
- .nav ul li {
-     float: left;
-     margin-left: 100px;
-     margin-right: 100px;
-     font-size: 20px;
-     font-weight: bold;
- }
- 
- a {
-     text-decoration: none;
- }
- 
- .nav ul li a:hover {
-     color: cyan;
-     border: 2px solid crimson;
-     background-color: coral;
-     border-radius: 5px;
- }
- 
- .clear {
-     clear: both;
- }
- 
- .botton {
-     color: darkblue;
-     font-size: 20px;
-     padding: 10px 20px;
-     display: inline-block;
-     font-weight: 500;
-     background: rgb(220, 110, 20);
-     border: 4px solid crimson;
-     border-radius: 8px;
- }
- 
- .botton:hover {
-     background: transparent;
-     border-color: red;
-     color: gray;
- }
- 
- .intro {
-     position: absolute;
-     top: 35%;
-     left: 25%;
- }
- 
- .intro .head {
-     color: black;
-     font-size: 20px;
-     letter-spacing: 4px;
-     display: inline-block;
-     margin-bottom: 20px;
-     background: linear-gradient(120deg, #7644ff 50%, crimson 30%);
-     -webkit-background-clip: text;
-     -webkit-text-fill-color: transparent;
- }
- 
- .intro h1 {
-     color: black;
-     font: size 70px;
-     font-weight: 1000;
-     line-height: 60px;
-     width: 60%;
- }
- 
- .intro h1 span {
-     color: crimson;
- }
- 
- .image {
-     float: right;
-     width: 50%;
-     height: 550px;
-     display: flex;
-     justify-content: center;
-     align-items: center;
-     position: relative;
- }
- /*.cleara {
-     clear: both;
- }*/
- 
- .socialink {
-     position: fixed;
-     bottom: 200px;
-     left: 50px;
- }
- 
- .socialink ul li {
-     float: left;
-     margin-left: 100px;
-     margin-right: 10px;
-     padding-right: 100px;
-     font-size: 30px;
- }
- 
- .socialink a:hover {
-     border: 2px solid black;
-     background-color: darkolivegreen;
-     color: black;
-     border-radius: 8px;
-     transition: 0.5s;
- }
+     body {
+         margin: 0;
+         padding: 0;
+         background-color: aquamarine;
+     }
+     
+     .nav {
+         position: absolute;
+         top: 0;
+         right: 0;
+     }
+     
+     .nav ul {
+         list-style-type: none;
+     }
+     
+     .nav ul li {
+         float: left;
+         margin-left: 100px;
+         margin-right: 100px;
+         font-size: 20px;
+         font-weight: bold;
+     }
+     
+     a {
+         text-decoration: none;
+     }
+     
+     .nav ul li a:hover {
+         color: cyan;
+         border: 2px solid crimson;
+         background-color: coral;
+         border-radius: 5px;
+     }
+     
+     .botton {
+         color: darkblue;
+         font-size: 20px;
+         padding: 10px 20px;
+         display: inline-block;
+         font-weight: 500;
+         background: rgb(220, 110, 20);
+         border: 4px solid crimson;
+         border-radius: 8px;
+     }
+     
+     .botton:hover {
+         background: transparent;
+         border-color: red;
+         color: gray;
+     }
+     
+     .intro {
+         position: absolute;
+         top: 35%;
+         left: 25%;
+     }
+     
+     .intro .head {
+         color: black;
+         font-size: 25px;
+         font-weight: bolder;
+         letter-spacing: 4px;
+         display: inline-block;
+         margin-bottom: 10px;
+         background: linear-gradient(120deg, #7644ff 50%, crimson 30%);
+         -webkit-background-clip: text;
+         -webkit-text-fill-color: transparent;
+     }
+     
+     .intro h1 {
+         color: black;
+         font: size 70px;
+         font-weight: 1000;
+         line-height: 60px;
+         width: 60%;
+     }
+     
+     .intro h1 span {
+         color: crimson;
+     }
+     
+     .image {
+         position: absolute;
+         top: 80;
+         right: 60;
+         width: 55%;
+         height: 80%;
+     }
+     
+     .socialink {
+         position: absolute;
+         bottom: 100;
+         left: 0;
+     }
+     
+     .socialink ul li {
+         float: left;
+         margin-left: 400px;
+         padding-right: 100px;
+         font-size: 30px;
+     }
