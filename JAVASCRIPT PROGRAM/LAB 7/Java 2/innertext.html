@@ -12,11 +12,11 @@
     <script>
         var str;
         str = prompt("Enter the string", str);
+        str = str.replace(str.charAt(0), str.charAt(0).toUpperCase());
+        str = str.replace(str.charAt(str.length - 1), str.charAt(str.length - 1).toUpperCase());
 
-        var sl = str.slice(1, str.length - 1);
-        var rev = str.substr(1);
-        var up = str.charAt(0).toUpperCase() + sl + rev.charAt(0).toUpperCase();
-        document.getElementById("para").textContent += up;
+
+        document.getElementById("para").innerText = str;
     </script>
 
 </body>
